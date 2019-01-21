@@ -1,0 +1,10 @@
+ttn_api_access:
+    mqtt_host: <your ttn host>
+    topic: <AppID>/devices/<DevID>/up
+    user: <Application ID>
+    passwd: <Application Access Key>
+tb_api_access:
+    mqtt_host: <your thingsboard host>
+    topic: "v1/devices/me/telemetry"
+    user: <access token>
+    passwd: ""
